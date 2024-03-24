@@ -42,12 +42,6 @@ func (p *PlayerServer) leagueHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(p.store.GetLeague())
 }
 
-func (p *PlayerServer) getLeagueTable() []Player {
-	return []Player{
-		{"Chris", 20},
-	}
-}
-
 func (p *PlayerServer) playersHandler(w http.ResponseWriter, r *http.Request) {
 	player := strings.TrimPrefix(r.URL.Path, "/players/")
 
