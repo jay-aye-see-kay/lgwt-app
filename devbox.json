@@ -2,6 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.1/.schema/devbox.schema.json",
   "packages": [
     "go@latest",
-    "gotools@latest"
-  ]
+    "gotools@latest",
+    "watchexec@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "test": "watchexec --exts go 'go test'"
+    }
+  }
 }

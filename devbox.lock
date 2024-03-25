@@ -96,6 +96,54 @@
           "store_path": "/nix/store/nsnv67iymvw7plc6dlsqf1braq3c88xh-gotools-0.18.0"
         }
       }
+    },
+    "watchexec@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#watchexec",
+      "source": "devbox-search",
+      "version": "1.25.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/igd6qh25ipban73ykhf48qqm2clsisip-watchexec-1.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/igd6qh25ipban73ykhf48qqm2clsisip-watchexec-1.25.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z260fz98l8zs1b0zz8zyhm01jp7darm5-watchexec-1.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z260fz98l8zs1b0zz8zyhm01jp7darm5-watchexec-1.25.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a0a1p7c63wx91bv5r9m69c5hp6ii46wy-watchexec-1.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a0a1p7c63wx91bv5r9m69c5hp6ii46wy-watchexec-1.25.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9r4qb4b03qai3c5mp7iy7vh84a48n9ym-watchexec-1.25.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9r4qb4b03qai3c5mp7iy7vh84a48n9ym-watchexec-1.25.1"
+        }
+      }
     }
   }
 }
