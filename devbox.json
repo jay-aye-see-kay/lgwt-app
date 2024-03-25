@@ -7,9 +7,9 @@
   ],
   "shell": {
     "scripts": {
-      "run": "go run .",
-      "build": "go build -o lgwt-app .",
-      "test": "watchexec --exts go 'go test'"
+      "run": "go run cmd/webserver/main.go",
+      "build": "go build -o lgwt-app cmd/webserver/main.go",
+      "test": "watchexec --exts go 'go test ./...'"
     }
   }
 }
