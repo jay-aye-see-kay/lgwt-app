@@ -19,8 +19,8 @@ func TestFileSystemStore(t *testing.T) {
 			{"Chris", 33},
 			{"Cleo", 10},
 		}
-		assertLeague(t, store.GetLeague(), want)
-		assertLeague(t, store.GetLeague(), want)
+		AssertLeague(t, store.GetLeague(), want)
+		AssertLeague(t, store.GetLeague(), want)
 	})
 
 	// file_system_store_test.go
@@ -94,11 +94,11 @@ func TestFileSystemStore(t *testing.T) {
 			{"Cleo", 10},
 		}
 
-		assertLeague(t, got, want)
+		AssertLeague(t, got, want)
 
 		// read again
 		got = store.GetLeague()
-		assertLeague(t, got, want)
+		AssertLeague(t, got, want)
 	})
 }
 
